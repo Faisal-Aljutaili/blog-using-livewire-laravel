@@ -21,7 +21,7 @@ class PostCreate extends Component
     }
 
     public function savePost(){
-        $this->post->user_id = 1;
+        $this->post->user_id = auth()->user()->id;
         $this->post->slug = Str::slug($this->post->title);
         $this->post->save();
         $this->saveSuccess = true;

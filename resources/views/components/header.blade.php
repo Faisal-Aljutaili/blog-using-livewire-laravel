@@ -6,9 +6,9 @@
             <a href="/">
                 <img src="/images/letter-f-svgrepo-com.svg" alt="f Logo" width="165" height="16">
             </a>
-        </div>     
+        </div>      
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <a href="/post/create" class="mr-5 hover:text-gray-900">Creare a Post</a>
+            <a href="/post/create" class="mr-5 hover:text-gray-900">Create a Post</a>
 
             <a href="/" class="mr-5 hover:text-gray-900">Home</a>
             <a href="/admin/posts" class="mr-5 hover:text-gray-900">Dashboard</a>
